@@ -22,3 +22,5 @@ delete file from repository
 `git rm --cached fileName`
 
 
+restore changes from file while not being commited
+`git restore --staged fileName`
