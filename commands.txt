@@ -12,3 +12,13 @@ check status of repository
 add files to repository
 `git add fileName`
 `git add .` --> for all files
+
+
+committing changes to repository
+`git commit -m "commit message"`
+
+
+delete file from repository
+`git rm --cached fileName`
+
+
