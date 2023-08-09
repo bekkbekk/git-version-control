@@ -26,6 +26,15 @@ restore changes from file while not being commited
 `git restore --staged fileName`
 
 
+add branch to repository
+`git branch branchName`
+
+
+change branch from repository
+`git checkout branchName`
+
+
 merge branches to master branch
 1. go back to master branch
 2. `git merge branchName`
+NOTE: dapat naka commit na ang branch mo
