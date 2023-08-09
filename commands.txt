@@ -1,0 +1,14 @@
+create a file in vscode terminal
+`ni fileName.fileExtension`
+`code -r fileName.fileExtension`
+
+initialize repository
+`git init`
+
+check status of repository
+`git status`
+
+
+add files to repository
+`git add fileName`
+`git add .` --> for all files
