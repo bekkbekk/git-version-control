@@ -38,3 +38,9 @@ merge branches to master branch
 1. go back to master branch
 2. `git merge branchName`
 NOTE: dapat naka commit na ang branch mo
+
+
+add to github/online repository
+1. git remote add remoteName repositoryLink
+## 2. git branch -M main
+3. git push -u remoteName branchName
