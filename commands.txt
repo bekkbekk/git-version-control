@@ -24,3 +24,8 @@ delete file from repository
 
 restore changes from file while not being commited
 `git restore --staged fileName`
+
+
+merge branches to master branch
+1. go back to master branch
+2. `git merge branchName`
