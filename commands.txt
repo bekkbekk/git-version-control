@@ -1,10 +1,10 @@
 create a file in vscode terminal
-`ni fileName.fileExtension`
-`code -r fileName.fileExtension`
+`ni [fileName]`
+`code -r [fileName]`
 
 
 create folder
-`mkdir folderName`
+`mkdir [folderName]`
 
 
 initialize repository
@@ -24,31 +24,38 @@ committing changes to repository
 
 
 delete file from repository
-`git rm --cached fileName`
+`git rm --cached [fileName]`
 
 
 restore changes from file while not being commited
-`git restore --staged fileName`
+`git restore --staged [fileName]`
 
 
 add branch to repository
-`git branch branchName`
+`git branch [branchName]`
 
 
 change branch from repository
-`git checkout branchName`
+`git checkout [branchName]`
+
+
+add branch and switch to that branch
+`git checkout -b [branchName]`
 
 
 merge branches to master branch
 1. go back to master branch
-2. `git merge branchName`
+2. `git merge [branchName]`
 NOTE: dapat naka commit na ang branch mo
 
 
 add to github/online repository
-1. git remote add remoteName repositoryLink
-## 2. git branch -M main
-3. git push -u remoteName branchName
+1. git remote add [remoteName] repositoryLink
+2. git push -u [remoteName] [branchName]
+
+
+delete remote
+`git remote remove [remoteName]`
 
 
 add name/email
