@@ -61,3 +61,12 @@ delete remote
 add name/email
 `git config --global user.name name`
 `git config --global user.email email`
+
+
+
+get repo from online
+OPTION 1:
+`git pull [link]`
+OPTION 1:
+`git fetch` --> didiretso ang updated files sa local repo
+`git merge` --> need pa imerge para makita sa working directory
