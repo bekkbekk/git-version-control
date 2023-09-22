@@ -9,3 +9,7 @@ function login() {
 function poop() {
     
 }
+
+function curse() {
+    
+}
